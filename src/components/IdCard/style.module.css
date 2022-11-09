@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    align-content: top;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.datas {
+    line-height: 5px;
+}
