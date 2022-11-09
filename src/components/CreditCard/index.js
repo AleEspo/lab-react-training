@@ -6,6 +6,14 @@ export function CreditCard (props){
         backgroundColor: `${props.bgColor}`
     }
 
+    // let cardLogo = {
+    //     if(props.type === "visa"){
+    //         return "VISA"
+    //     } else {
+    //         return "MASTER"
+    //     }
+    // }
+
     return (
         <div className={style.creditCard} style={divStyle}>
             <p>type:{props.type}</p>
